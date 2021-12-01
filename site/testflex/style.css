@@ -1,0 +1,235 @@
+.navB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 264px;
+  padding-left: 136px;
+  width: 80%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 999999;
+  background-color: rgb(245, 244, 243);
+}
+body{
+  position: relative;
+}
+
+.navB img {
+  width: 270px;
+}
+.navigation a {
+  margin-left: 10px;
+  color: rgb(116, 114, 114);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+a:link {
+  color: rgb(190, 190, 190);
+}
+
+/* visited link */
+a:visited {
+  color: #00b39b;
+}
+
+/* mouse over link */
+a:hover {
+  color: #00b39b;
+}
+
+/* selected link */
+a:active {
+  color: #00b39b;
+}
+.important {
+  color: #00b39b;
+}
+.para {
+  display: flex;
+  width: 60%;
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.part1 h1{
+  font-size: 2rem;
+  color: #00b39b;;
+}
+.part1 img {
+  width: 50px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 1.2rem;
+  margin: 0 auto;
+  font-family: Roboto,Arial,sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+.box1{
+  width: 30%;
+  background-color: #00ccb1;
+  padding-top: 20px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+/* mouse over link */
+.box1:hover {
+  background-color: #00ccb1c9;
+}
+.box2{
+  width: 30%;
+  background-color: #3d83df;
+  padding-top: 20px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+.box2:hover {
+  background-color: #3d83dfd8;
+}
+.box3{
+  width: 30%;
+  background-color: #1b2734;
+  padding-left: 10px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+.box3:hover {
+  background-color: #1b2734c9;
+}
+.logo{
+  justify-content: space-between;
+  padding-left: 20%;
+  display: flex;
+  width: 70%;
+}
+.logo p{
+  width: 25%;
+  height: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  color: #00ccb1;
+}
+.listlogo{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 0.5rem;
+justify-content: space-around;
+width: 60%;
+align-items: center;
+padding-top: 20px;
+}
+
+.biglist{
+  display: flex;
+  background-color: #e5faf8;
+  height: 100%;
+  padding-top: 20px;
+  height: 629px;
+  padding-bottom: 20px !important;
+}
+}
+.text{
+  font-size: 1.2rem;
+  color:#00b39b;
+  width: 33%;
+  padding-left: 20%;
+}
+.text p{
+  color: #000;
+  font-size: 1rem;
+}
+.longfiche{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 552px;
+  justify-content: space-between;
+padding-right: 20px;
+padding-left: 20px;
+margin: 0pt auto;
+align-items: flex-end;
+}
+.fiche{
+  width: 35%;
+  height: 50%;
+  background-color: hsl(0, 0%, 100%);
+  padding-left: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 12px;
+}
+.footer{
+width: 30%;
+text-align: center;
+padding: 30px;
+    margin-left: 500px;
+}
+footer p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+}
+.footer h2{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #00b39b;
+  font-size: 1.5rem;
+}
+.listphoto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 70%;
+  margin-left: 15%;
+}
+.photo{
+  width: 30%;
+  padding-top: 20px;
+
+}
+.buttont{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 20px;
+}
+#design{
+  background-color: rgba(0, 0, 255, 0.76);
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 111px;
+  height: 25px;
+}
+#design:hover{
+  background-color: blue;
+}
+.textfinal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 49px;
+}
+#design2{
+  background-color: rgba(0, 0, 255, 0.76);
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 266px;
+  height: 25px;
+}
+#design2:hover{
+  background-color: blue;
+}
